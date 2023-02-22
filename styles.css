@@ -41,6 +41,8 @@ body {
 }
 figure {
   width: 70vw;
+  max-width: 600px;
+  /* min-height: 20vh; */
   margin-bottom: 5rem;
   margin: 3rem auto;
 }
@@ -58,11 +60,6 @@ p::first-letter {
   font-size: 40px;
   line-height: 10px;
 }
-/* span{
-line-height: 10px;
-  font-size: 40px;
-  font-weight: 700;
-} */
 
 #tribute-link {
   color: var(--color);
